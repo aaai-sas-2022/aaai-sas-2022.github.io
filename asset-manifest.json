@@ -1,23 +1,38 @@
 {
   "files": {
     "main.css": "/static/css/main.7422a277.chunk.css",
-    "main.js": "/static/js/main.9bb2302b.chunk.js",
-    "main.js.map": "/static/js/main.9bb2302b.chunk.js.map",
+    "main.js": "/static/js/main.898da54f.chunk.js",
+    "main.js.map": "/static/js/main.898da54f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.47788c5d.js",
     "runtime-main.js.map": "/static/js/runtime-main.47788c5d.js.map",
-    "static/js/2.c3da7e8d.chunk.js": "/static/js/2.c3da7e8d.chunk.js",
-    "static/js/2.c3da7e8d.chunk.js.map": "/static/js/2.c3da7e8d.chunk.js.map",
+    "static/js/2.a9ab6390.chunk.js": "/static/js/2.a9ab6390.chunk.js",
+    "static/js/2.a9ab6390.chunk.js.map": "/static/js/2.a9ab6390.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.dad369d83c8818a520ee21ab37e2f641.js": "/precache-manifest.dad369d83c8818a520ee21ab37e2f641.js",
+    "precache-manifest.57003ef8d1eacb7dc565e4ed40ba5a78.js": "/precache-manifest.57003ef8d1eacb7dc565e4ed40ba5a78.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.7422a277.chunk.css.map": "/static/css/main.7422a277.chunk.css.map",
-    "static/js/2.c3da7e8d.chunk.js.LICENSE.txt": "/static/js/2.c3da7e8d.chunk.js.LICENSE.txt",
-    "static/media/location.jpg": "/static/media/location.2ab7ff0a.jpg"
+    "static/js/2.a9ab6390.chunk.js.LICENSE.txt": "/static/js/2.a9ab6390.chunk.js.LICENSE.txt",
+    "static/media/AAAISAS2022_vmix_cameraready-compressed.pdf": "/static/media/AAAISAS2022_vmix_cameraready-compressed.e0312ee8.pdf",
+    "static/media/AAAI_SAS_2022_S3PRL_VC.pdf": "/static/media/AAAI_SAS_2022_S3PRL_VC.b261c005.pdf",
+    "static/media/AAAI_SAS_2022_final.pdf": "/static/media/AAAI_SAS_2022_final.d0b77350.pdf",
+    "static/media/AAAI_SAS_workshop_Membership_Inference_Attacks_Against_Self_supervised_Speech_Models.pdf": "/static/media/AAAI_SAS_workshop_Membership_Inference_Attacks_Against_Self_supervised_Speech_Models.f955f534.pdf",
+    "static/media/AAAI_SUPERB_MTL_camera.pdf": "/static/media/AAAI_SUPERB_MTL_camera.c96712eb.pdf",
+    "static/media/AAAI_Workshop.pdf": "/static/media/AAAI_Workshop.4842bce0.pdf",
+    "static/media/Characterizing_the_adversarial_vulnerability_of_speech_self-supervised_learning.pdf": "/static/media/Characterizing_the_adversarial_vulnerability_of_speech_self-supervised_learning.26162b9c.pdf",
+    "static/media/DistilHuBERT_AAAI_SAS_2022.pdf": "/static/media/DistilHuBERT_AAAI_SAS_2022.7d068153.pdf",
+    "static/media/SAS_AAAI_2022_depression.pdf": "/static/media/SAS_AAAI_2022_depression.59cc4a40.pdf",
+    "static/media/SSL-CS-ASR_AAAI-SAS.pdf": "/static/media/SSL-CS-ASR_AAAI-SAS.b79f0ebf.pdf",
+    "static/media/aaai22_ssl_camera_ready.pdf": "/static/media/aaai22_ssl_camera_ready.8cbf3fb4.pdf",
+    "static/media/aaai_delores_final.pdf": "/static/media/aaai_delores_final.499ddb39.pdf",
+    "static/media/appendix.pdf": "/static/media/appendix.8b464ceb.pdf",
+    "static/media/location.jpg": "/static/media/location.2ab7ff0a.jpg",
+    "static/media/paper_millet_dunbar.pdf": "/static/media/paper_millet_dunbar.d9355e2c.pdf",
+    "static/media/sas_aaai_fastvgs_zs21_superb.pdf": "/static/media/sas_aaai_fastvgs_zs21_superb.bb9683e1.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.47788c5d.js",
-    "static/js/2.c3da7e8d.chunk.js",
+    "static/js/2.a9ab6390.chunk.js",
     "static/css/main.7422a277.chunk.css",
-    "static/js/main.9bb2302b.chunk.js"
+    "static/js/main.898da54f.chunk.js"
   ]
 }
