@@ -7,10 +7,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import styles from "assets/jss/material-kit-react/components/headerLinksStyle.js";
 import Button from "components/CustomButtons/Button.js";
 import React from "react";
-import { HashLink as Link } from 'react-router-hash-link';
-
-
-
+import { HashLink as Link } from "react-router-hash-link";
 
 const useStyles = makeStyles(styles);
 
@@ -19,84 +16,60 @@ export default function HeaderLinks(props) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        <Link to="/#description" style={{color: "inherit"}}>
-        <Button
-          color="transparent"
-          className={classes.navLink}
-        >
-        Description
-        </Button>
+        <Link to="/#description" style={{ color: "inherit" }}>
+          <Button color="transparent" className={classes.navLink}>
+            Description
+          </Button>
         </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Link to="/#call" style={{color: "inherit"}}>
-        <Button
-          color="transparent"
-          className={classes.navLink}
-        >
-        Call for Papers
-        </Button>
+        <Link to="/#call" style={{ color: "inherit" }}>
+          <Button color="transparent" className={classes.navLink}>
+            Call for Papers
+          </Button>
         </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Link to="/#deadlines" style={{color: "inherit"}}>
-        <Button
-          color="transparent"
-          className={classes.navLink}
-        >
-        Deadlines
-        </Button>
+        <Link to="/#deadlines" style={{ color: "inherit" }}>
+          <Button color="transparent" className={classes.navLink}>
+            Deadlines
+          </Button>
         </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Link to="/#schedule" style={{color: "inherit"}}>
-        <Button
-          color="transparent"
-          className={classes.navLink}
-        >
-        Schedule
-        </Button>
+        <Link to="/#schedule" style={{ color: "inherit" }}>
+          <Button color="transparent" className={classes.navLink}>
+            Schedule
+          </Button>
         </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Link to="/#organizers" style={{color: "inherit"}}>
-        <Button
-          color="transparent"
-          className={classes.navLink}
-        >
-        Organizers
-        </Button>
+        <Link to="/#organizers" style={{ color: "inherit" }}>
+          <Button color="transparent" className={classes.navLink}>
+            Organizers
+          </Button>
         </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Link to="/#papers" style={{color: "inherit"}}>
-        <Button
-          color="transparent"
-          className={classes.navLink}
-        >
-        Accepted Papers
-        </Button>
+        <Link to="/#schedule" style={{ color: "inherit" }}>
+          <Button color="transparent" className={classes.navLink}>
+            Accepted Papers
+          </Button>
         </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Link to="/#contact" style={{color: "inherit"}}>
-        <Button
-          color="transparent"
-          className={classes.navLink}
-        >
-        Contact
-        </Button>
+        <Link to="/#contact" style={{ color: "inherit" }}>
+          <Button color="transparent" className={classes.navLink}>
+            Contact
+          </Button>
         </Link>
       </ListItem>
 
       <ListItem className={classes.listItem}>
-        <Link to="/#previous_workshops" style={{color: "inherit"}}>
-        <Button
-          color="transparent"
-          className={classes.navLink}
-        >
-        Previous Workshops
-        </Button>
+        <Link to="/#previous_workshops" style={{ color: "inherit" }}>
+          <Button color="transparent" className={classes.navLink}>
+            Previous Workshops
+          </Button>
         </Link>
       </ListItem>
 

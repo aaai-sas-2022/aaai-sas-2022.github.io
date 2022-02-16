@@ -24,6 +24,53 @@ const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
 
+const committee = [
+  ["Andros	Tjandra", "	NAIST"],
+  ["Aswin	Sivaraman", "	Indiana University Bloomington"],
+  ["Benjamin	van Niekerk", "University of the Witwatersrand"],
+  ["Bo	Li", "	Google"],
+  ["Cheng-I	Lai", "Massachusetts Institute of Technology"],
+  ["David	Harwath", "The University of Texas at Austin"],
+  ["Efthymios	Tzinis", "University of Illinois at Urbana-Champaign"],
+  ["Ewald	Van der Westhuizen", "Stellenbosch University"],
+  ["George	Saon", "	IBM"],
+  ["Haibin	Wu", "	National Taiwan University"],
+  ["Herman	Kamper", "	Stellenbosch University"],
+  ["Hsin-Min	Wang", "Academia Sinica"],
+  ["Jaesung	Huh", "University of Oxford"],
+  ["Jahangir	Alam", "Computer Research Institute of Montreal (CRIM)"],
+  ["Joon Son Chung", "Naver Clova"],
+  ["Junwen	Bai", "Cornell University"],
+  ["Kai-Wei Chang", "National Taiwan University"],
+  ["Kunio	Kashino", "Nippon Telegraph and Telephone Corporation"],
+  ["Laurent	Besacier", "	Université Grenoble Alpes"],
+  ["Lei	Xie", "	Northwestern Polytechnical University"],
+  ["Lucas	Ondel", "	Brno University of Technology"],
+  ["Morgane	Riviere", "	Meta"],
+  ["Okko	Räsänen", "	Tampere University"],
+  ["Paola	Garcia", "	Johns Hopkins University"],
+  ["Rif A. Saurous", "Google"],
+  ["Rohit	Prabhavalkar", "	Google"],
+  ["Sakriani	Sakti", "	JAIST / NAIST"],
+  ["Scott	Wisdom", "	Google"],
+  ["Shigeki	Karita", "	Google"],
+  ["Siddhant	Arora", "	Carnegie Mellon University"],
+  ["Sriram	Ganapathy", "	Indian Institute of Science"],
+  ["Takahiro	Shinozaki", "	Tokyo Institute of Technology"],
+  ["Themos	Stafylakis", "	Omilia - Conversational Intelligence"],
+  ["Thomas	Pellegrini", "	IRIT"],
+  ["Tomi	Kinnunen", "	University of Eastern Finland"],
+  ["Tomoki	Toda", "	Nagoya University"],
+  ["Van hamme	Hugo", "Katholieke Universiteit Leuven"],
+  ["Wei-Ning Hsu", "Massachusetts Institute of Technology"],
+  ["Yen-Ju Lu", "Carnegie Mellon University"],
+  ["Yu-An Chung", "Massachusetts Institute of Technology"],
+  ["Yusuke Fujita", "LINE Corporation"],
+  ["Yutian Chen", "	DeepMind"],
+  ["Yuzong Liu", "	Amazon"],
+  ["Zhen-Hua Ling", "University of Science and Technology of China"],
+];
+
 /*
 1. Header
 2. Parallax
@@ -185,12 +232,13 @@ export default function LandingPage(props) {
             title="Program Committee"
             descriptions={[
               <div style={{ textAlign: "left" }}>
-                {[["TBD", "TBD"]].map((info) => (
+                {committee.map((info) => (
                   <div>
-                    <div style={{ margin: "30px 0 5px 0" }}>
-                      <span style={{ fontWeight: "bold" }}>{info[0]}</span>
+                    <div style={{ margin: "10px 0 5px 0" }}>
+                      <span style={{ fontWeight: "bold" }}>{info[0]}</span> /{" "}
+                      <span>{info[1]}</span>
                     </div>
-                    <block style={{ margin: "5px 0 30px 0" }}>{info[1]}</block>
+                    {/* <block style={{ margin: "5px 0 30px 0" }}>{info[1]}</block> */}
                   </div>
                 ))}
               </div>,
