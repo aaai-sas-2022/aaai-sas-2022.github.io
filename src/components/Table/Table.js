@@ -26,8 +26,8 @@ const StyledTableRow = withStyles((theme) => ({
   },
 }))(TableRow);
 
-function createData(time, activity, title) {
-  return { time, activity, title };
+function createData(time, activity, note, slides = null, video = null) {
+  return { time, activity, note, slides, video };
 }
 
 function listofname(names) {
@@ -52,11 +52,45 @@ function listoftitle(names) {
 
 const section1 = [
   createData("8:50 - 9:00", "Opening", "Organizers"),
-  createData("9:00 - 9:50", "Keynote 1", "40 mins presentation + 10 mins Q&A"),
   createData(
-    "9:50 - 11:00",
-    "Invited talks 1 & 2 & 3",
-    "20 mins presentations for each speaker + 10 mins Q&A"
+    "9:00 - 9:50",
+    "Keynote - Kristen Grauman",
+    "40 mins presentation + 10 mins Q&A"
+  ),
+  createData(
+    "9:50 - 10:10",
+    "Invited talk - Danqi Chen",
+    "",
+    <a
+      href={require("assets/slides/keynote_talks/Danqi_Chen_aaai2022_talk.pdf")}
+    >
+      [slides]
+    </a>
+  ),
+  createData(
+    "10:10 - 10:30",
+    "Invited talk - Herman Kamper",
+    "",
+    <a
+      href={require("assets/slides/keynote_talks/Herman_Kamper_aaai2022_talk.pdf")}
+    >
+      [slides]
+    </a>
+  ),
+  createData(
+    "10:30 - 10:50",
+    "Invited talk - Jan Chorowski",
+    "",
+    <a
+      href={require("assets/slides/keynote_talks/Jan_Chorowski_aaai2022_talk.pdf")}
+    >
+      [slides]
+    </a>
+  ),
+  createData(
+    "10:50 - 11:00",
+    "Q&A for Danqi Chen, Herman Kamper, and Jan Chorowski",
+    ""
   ),
 ];
 
@@ -74,9 +108,28 @@ const section2 = [
 ];
 const section3 = [
   createData(
-    "13:20 - 14:30",
-    "Invited talk 4 & 5 & 6",
-    "20 mins presentations for each speaker + 10 mins Q&A"
+    "13:20 - 13:40",
+    "Invited talk - Wei-Ning Hsu",
+    "",
+    <a
+      href={require("assets/slides/keynote_talks/Weining_Hsu_aaai2022_talk.pdf")}
+    >
+      [slides]
+    </a>
+  ),
+  createData("13:40 - 14:00", "Invited talk - Odette Scharenborg", ""),
+  createData(
+    "14:00 - 14:20",
+    "Invited talk - Alexei Baevski",
+    "",
+    <a href={require("assets/slides/keynote_talks/Alexei_aaai2022_talk.pdf")}>
+      [slides]
+    </a>
+  ),
+  createData(
+    "14:20 - 14:30",
+    "Q&A for Wei-Ning Hsu, Odette Scharenborg, and Alexei Baevski",
+    ""
   ),
   createData(
     "14:30 - 15:20",
@@ -87,22 +140,32 @@ const section3 = [
 const section4 = [
   createData(
     "15:50 - 16:40",
-    "Keynote 2",
-    "40 mins presentation + 10 mins Q&A "
+    "Keynote - James Glass",
+    "40 mins presentation + 10 mins Q&A ",
+    <a href={require("assets/slides/keynote_talks/Jim_aaai2022_keynote.pdf")}>
+      [slides]
+    </a>
   ),
 ];
 const section5 = [
+  createData("17:10 - 17:30", "Invited talk - Yu Zhang", ""),
   createData(
-    "17:10 - 18:00",
-    "Invited talks 7 & 8",
-    "20 mins presentations for each speaker + 10 mins Q&A"
+    "17:30 - 17:50",
+    "Invited talk - Sakriani Sakti",
+    "",
+    <a
+      href={require("assets/slides/keynote_talks/Sakriani_Sakti_AAAI2022_talk.pdf")}
+    >
+      [slides]
+    </a>
   ),
+  createData("17:50 - 18:00", "Q&A for Yu Zhang and Sakriani Sakti", ""),
   createData(
-    "18:00 - 19:00",
+    "18:00 - 19:05",
     "Paper presentation (SUPERB)",
-    "3 papers + wavLM + result presentation (10 mins each) + 10 mins Q&A"
+    "SUPERB intro and result (15 mins) + 4 papers (10 mins each) + 10 mins Q&A"
   ),
-  createData("19:00 - 19:10", "Closing remarks", "Organizers"),
+  createData("19:05 - 19:15", "Closing remarks", "Organizers"),
 ];
 const useStyles = makeStyles({
   table: {
@@ -120,66 +183,77 @@ export default function CustomizedTables() {
           <TableRow>
             <StyledTableCell>Time (EST)</StyledTableCell>
             <StyledTableCell align="left">Activity</StyledTableCell>
-            <StyledTableCell align="left">
-              Presenters / Presentation title / Note
-            </StyledTableCell>
+            <StyledTableCell align="left">Note</StyledTableCell>
           </TableRow>
         </TableHead>
 
         <TableBody>
           {section1.map((row) => (
-            <StyledTableRow key={row.title}>
+            <StyledTableRow key={row.activity}>
               <StyledTableCell align="left">{row.time}</StyledTableCell>
-              <StyledTableCell align="left">{row.activity}</StyledTableCell>
-              <StyledTableCell align="left">{row.title}</StyledTableCell>
+              <StyledTableCell align="left">
+                {row.activity} {row.slides} {row.video}
+              </StyledTableCell>
+              <StyledTableCell align="left">{row.note}</StyledTableCell>
             </StyledTableRow>
           ))}
           <StyledTableRow>
-            <StyledTableCell colspan="3" align="center">
+            <StyledTableCell colspan="3" align="center" className="table-break">
               10-min Break
             </StyledTableCell>
           </StyledTableRow>
           {section2.map((row) => (
-            <StyledTableRow key={row.title}>
+            <StyledTableRow key={row.activity}>
               <StyledTableCell align="left">{row.time}</StyledTableCell>
-              <StyledTableCell align="left">{row.activity}</StyledTableCell>
-              <StyledTableCell align="left">{row.title}</StyledTableCell>
+              <StyledTableCell align="left">
+                {row.activity} {row.slides} {row.video}
+              </StyledTableCell>
+              <StyledTableCell align="left">{row.note}</StyledTableCell>
             </StyledTableRow>
           ))}
           <StyledTableRow>
-            <StyledTableCell colspan="3" align="center">
+            <StyledTableCell colspan="3" align="center" className="table-break">
               30-min Break
             </StyledTableCell>
           </StyledTableRow>
           {section3.map((row) => (
-            <StyledTableRow key={row.title}>
+            <StyledTableRow key={row.activity}>
               <StyledTableCell align="left">{row.time}</StyledTableCell>
-              <StyledTableCell align="left">{row.activity}</StyledTableCell>
-              <StyledTableCell align="left">{row.title}</StyledTableCell>
+              <StyledTableCell align="left">
+                {" "}
+                {row.activity} {row.slides} {row.video}
+              </StyledTableCell>
+              <StyledTableCell align="left">{row.note}</StyledTableCell>
             </StyledTableRow>
           ))}
           <StyledTableRow>
-            <StyledTableCell colspan="3" align="center">
+            <StyledTableCell colspan="3" align="center" className="table-break">
               30-min Break
             </StyledTableCell>
           </StyledTableRow>
           {section4.map((row) => (
-            <StyledTableRow key={row.title}>
+            <StyledTableRow key={row.activity}>
               <StyledTableCell align="left">{row.time}</StyledTableCell>
-              <StyledTableCell align="left">{row.activity}</StyledTableCell>
-              <StyledTableCell align="left">{row.title}</StyledTableCell>
+              <StyledTableCell align="left">
+                {" "}
+                {row.activity} {row.slides} {row.video}
+              </StyledTableCell>
+              <StyledTableCell align="left">{row.note}</StyledTableCell>
             </StyledTableRow>
           ))}
           <StyledTableRow>
-            <StyledTableCell colspan="3" align="center">
+            <StyledTableCell colspan="3" align="center" className="table-break">
               30-min Break
             </StyledTableCell>
           </StyledTableRow>
           {section5.map((row) => (
-            <StyledTableRow key={row.title}>
+            <StyledTableRow key={row.activity}>
               <StyledTableCell align="left">{row.time}</StyledTableCell>
-              <StyledTableCell align="left">{row.activity}</StyledTableCell>
-              <StyledTableCell align="left">{row.title}</StyledTableCell>
+              <StyledTableCell align="left">
+                {" "}
+                {row.activity} {row.slides} {row.video}
+              </StyledTableCell>
+              <StyledTableCell align="left">{row.note}</StyledTableCell>
             </StyledTableRow>
           ))}
         </TableBody>

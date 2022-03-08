@@ -62,7 +62,7 @@ const committee = [
   ["Tomi	Kinnunen", "	University of Eastern Finland"],
   ["Tomoki	Toda", "	Nagoya University"],
   ["Van hamme	Hugo", "Katholieke Universiteit Leuven"],
-  ["Wei-Ning Hsu", "Massachusetts Institute of Technology"],
+  ["Wei-Ning Hsu", "Meta"],
   ["Yen-Ju Lu", "Carnegie Mellon University"],
   ["Yu-An Chung", "Massachusetts Institute of Technology"],
   ["Yusuke Fujita", "LINE Corporation"],
@@ -112,7 +112,7 @@ export default function LandingPage(props) {
                 Speech Processing
               </h1>
               <br />
-              <Button
+              {/* <Button
                 color="danger"
                 size="lg"
                 href="https://cmt3.research.microsoft.com/SAS2022"
@@ -120,6 +120,28 @@ export default function LandingPage(props) {
                 rel="noopener noreferrer"
               >
                 SUBMIT PAPERS
+              </Button> */}
+              <Button
+                color="success"
+                size="lg"
+                href="https://aaai.org/Conferences/AAAI-22/registration/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="my-button"
+              >
+                AAAI conference registration
+              </Button>
+              <br />
+              <Button
+                color="warning"
+                size="lg"
+                href="https://aaai-2022.virtualchair.net/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="my-button"
+              >
+                AAAI virtual venue <br />
+                (registration required)
               </Button>
             </GridItem>
           </GridContainer>

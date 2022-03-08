@@ -13,7 +13,6 @@ export default function Information(props) {
       <h2 className={classes.title}>Schedule</h2>
       <p style={{ height: 10 }}></p>
       <CustomizedTables />
-
       <h5 className={classes.title}>Paper presentation - session 1</h5>
       <ul style={{ color: "#696969", lineHeight: "30px" }}>
         <li>
@@ -24,7 +23,7 @@ export default function Information(props) {
           >
             paper link
           </a>
-          ]
+          ] [<a href={require("assets/slides/papers/S3PRL-VC.pdf")}>slides</a>]
         </li>
         <li>
           Pronunciation Adaptive Self Speaking Agent Using WaveGrad [
@@ -43,6 +42,12 @@ export default function Information(props) {
           >
             paper link
           </a>
+          ] [
+          <a
+            href={require("assets/slides/papers/Mandarin-English Code-Switching Speech Recognition with Self-Supervised Speech Representation Models.pdf")}
+          >
+            slides
+          </a>
           ]
         </li>
         <li>
@@ -52,6 +57,12 @@ export default function Information(props) {
             href={require("assets/CameraReadys/11/CameraReady/AAAI_SAS_2022_final.pdf")}
           >
             paper link
+          </a>
+          ] [
+          <a
+            href={require("assets/slides/papers/Dont speak too fast The impact of data bias on self-supervised speech models.pdf")}
+          >
+            slides
           </a>
           ]
         </li>
@@ -65,6 +76,12 @@ export default function Information(props) {
             href={require("assets/CameraReadys/21/CameraReady/Characterizing_the_adversarial_vulnerability_of_speech_self-supervised_learning.pdf")}
           >
             paper link
+          </a>
+          ] [
+          <a
+            href={require("assets/slides/papers/Characterizing the adversarial vulnerability of speech self-supervised learning.pdf")}
+          >
+            slides
           </a>
           ]
         </li>
@@ -85,6 +102,12 @@ export default function Information(props) {
           >
             paper link
           </a>
+          ] [
+          <a
+            href={require("assets/slides/papers/Pretext Tasks Selection for Multitask Self-Supervised Speech Representation.pdf")}
+          >
+            slides
+          </a>
           ]
         </li>
         <li>
@@ -95,14 +118,26 @@ export default function Information(props) {
           >
             paper link
           </a>
+          ] [
+          <a
+            href={require("assets/slides/papers/DeLoRes Decorrelating Latent Spaces for Low-Resource Audio Representation Learning.pdf")}
+          >
+            slides
+          </a>
           ]
         </li>
       </ul>
       <h5 className={classes.title}>Paper presentation - session 3</h5>
       <ul style={{ color: "#696969", lineHeight: "30px" }}>
         <li>
-          An Overview of Unsupervised Representation Learning for Speech, Lasse
-          Borgholt
+          A Brief Overview of Unsupervised Neural Speech Representation Learning
+          [
+          <a
+            href={require("assets/CameraReadys/16/CameraReady/A_Brief_Overview_of_Unsupervised_Neural_Speech_Representation_Learning__AAAI_SAS_.pdf")}
+          >
+            paper link
+          </a>
+          ]
         </li>
         <li>
           Do self-supervised speech models develop human-like perception biases
@@ -116,11 +151,29 @@ export default function Information(props) {
           <a href={require("assets/CameraReadys/9/CameraReady/appendix.pdf")}>
             appendix
           </a>
+          ] [
+          <a
+            href={require("assets/slides/papers/Do self-supervised speech models develop human-like perception biases.pdf")}
+          >
+            slides
+          </a>
           ]
         </li>
         <li>
           Investigation on instance mixup regularization strategies for
-          self-supervised speaker representation learning
+          self-supervised speaker representation learning [
+          <a
+            href={require("assets/CameraReadys/3/CameraReady/AAAISAS2022_vmix_cameraready-compressed.pdf")}
+          >
+            paper link
+          </a>
+          ] [
+          <a
+            href={require("assets/slides/papers/Investigation on instance mixup regularization strategies for self-supervised speaker representation learning.pdf")}
+          >
+            slides
+          </a>
+          ]
         </li>
         <li>
           Detecting Depression with a Temporal Context of Speaker Embeddings [
@@ -134,7 +187,10 @@ export default function Information(props) {
       </ul>
       <h5 className={classes.title}>Paper presentation (SUPERB)</h5>
       <ul style={{ color: "#696969", lineHeight: "30px" }}>
-        <li>SUPERB introduction and hidden set evaluation results</li>
+        <li>
+          SUPERB introduction, hidden set evaluation results, and hidden set
+          collection with <a href="https://www.lxt.ai/ ">LxT</a>
+        </li>
         <li>
           Self-Supervised Representation Learning for Speech Using Visual
           Grounding and Masked Language Modeling [
@@ -149,9 +205,9 @@ export default function Information(props) {
           Invitation talk: WavLM: Large-Scale Self-Supervised Pre-Training for
           Full Stack Speech Processing [
           <a
-            href={require("assets/CameraReadys/3/CameraReady/AAAISAS2022_vmix_cameraready-compressed.pdf")}
+            href={require("assets/slides/papers/WavLM Large-Scale Self-Supervised Pre-Training for Full Stack Speech Processing.pdf")}
           >
-            paper link
+            slides
           </a>
           ]
         </li>
@@ -163,6 +219,12 @@ export default function Information(props) {
           >
             paper link
           </a>
+          ] [
+          <a
+            href={require("assets/slides/papers/DistilHuBERT Speech Representation Learning by Layer-wise Distillation of Hidden-unit BERT.pdf")}
+          >
+            slides
+          </a>
           ]
         </li>
         <li>
@@ -172,6 +234,12 @@ export default function Information(props) {
             href={require("assets/CameraReadys/2/CameraReady/AAAI_SUPERB_MTL_camera.pdf")}
           >
             paper link
+          </a>
+          ] [
+          <a
+            href={require("assets/slides/papers/Speech Representation Learning through Self-supervised Pretraining and Multi-task Finetuning.pdf")}
+          >
+            slides
           </a>
           ]
         </li>
