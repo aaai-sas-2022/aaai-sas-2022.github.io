@@ -51,11 +51,19 @@ function listoftitle(names) {
 }
 
 const section1 = [
-  createData("8:50 - 9:00", "Opening", "Organizers"),
+  createData(
+    "8:50 - 9:00",
+    "Opening",
+    "Organizers",
+    "",
+    <a href="https://youtu.be/TaBksCBwtnc">[video]</a>
+  ),
   createData(
     "9:00 - 9:50",
     "Keynote - Kristen Grauman",
-    "40 mins presentation + 10 mins Q&A"
+    "40 mins presentation + 10 mins Q&A",
+    "",
+    <a href="https://youtu.be/dae2QnMsWJM">[video]</a>
   ),
   createData(
     "9:50 - 10:10",
@@ -65,7 +73,8 @@ const section1 = [
       href={require("assets/slides/keynote_talks/Danqi_Chen_aaai2022_talk.pdf")}
     >
       [slides]
-    </a>
+    </a>,
+    <a href="https://youtu.be/WJsOPVGw5HQ">[video]</a>
   ),
   createData(
     "10:10 - 10:30",
@@ -75,7 +84,8 @@ const section1 = [
       href={require("assets/slides/keynote_talks/Herman_Kamper_aaai2022_talk.pdf")}
     >
       [slides]
-    </a>
+    </a>,
+    <a href="https://youtu.be/SfJhPBo3kjg">[video]</a>
   ),
   createData(
     "10:30 - 10:50",
@@ -85,12 +95,15 @@ const section1 = [
       href={require("assets/slides/keynote_talks/Jan_Chorowski_aaai2022_talk.pdf")}
     >
       [slides]
-    </a>
+    </a>,
+    <a href="https://youtu.be/0QgCcM3z2mo">[video]</a>
   ),
   createData(
     "10:50 - 11:00",
     "Q&A for Danqi Chen, Herman Kamper, and Jan Chorowski",
-    ""
+    "",
+    "",
+    <a href="https://youtu.be/qHc28G_9c9Q">[video]</a>
   ),
 ];
 
@@ -98,12 +111,16 @@ const section2 = [
   createData(
     "11:10 - 12:00",
     "Paper presentation - session 1",
-    "Regular paper (10 mins for each speaker + 10 mins Q&A)"
+    "Regular paper (10 mins for each speaker + 10 mins Q&A)",
+    "",
+    <a href="https://youtu.be/uWvizUPAh6U">[video]</a>
   ),
   createData(
     "12:00 - 12:50",
     "Paper presentation - session 2",
-    "Regular paper (10 mins for each speaker + 10 mins Q&A)"
+    "Regular paper (10 mins for each speaker + 10 mins Q&A)",
+    "",
+    <a href="https://youtu.be/a9spIgNeupM">[video]</a>
   ),
 ];
 const section3 = [
@@ -115,26 +132,37 @@ const section3 = [
       href={require("assets/slides/keynote_talks/Weining_Hsu_aaai2022_talk.pdf")}
     >
       [slides]
-    </a>
+    </a>,
+    <a href="https://youtu.be/ykhI-Qp7ZGc">[video]</a>
   ),
-  createData("13:40 - 14:00", "Invited talk - Odette Scharenborg", ""),
+  createData(
+    "13:40 - 14:00",
+    "Invited talk - Odette Scharenborg",
+    "",
+    <a href="https://youtu.be/yRuUHWFdims">[video]</a>
+  ),
   createData(
     "14:00 - 14:20",
     "Invited talk - Alexei Baevski",
     "",
     <a href={require("assets/slides/keynote_talks/Alexei_aaai2022_talk.pdf")}>
       [slides]
-    </a>
+    </a>,
+    <a href="https://youtu.be/zWc_Lx-FnPc">[video]</a>
   ),
   createData(
     "14:20 - 14:30",
     "Q&A for Wei-Ning Hsu, Odette Scharenborg, and Alexei Baevski",
-    ""
+    "",
+    "",
+    <a href="https://youtu.be/fVNoypCJkm0">[video]</a>
   ),
   createData(
     "14:30 - 15:20",
     "Paper presentation - session 3",
-    "Regular paper (10 mins for each speaker + 10 mins Q&A)"
+    "Regular paper (10 mins for each speaker + 10 mins Q&A)",
+    "",
+    <a href="https://youtu.be/spneUyuG_aQ">[video]</a>
   ),
 ];
 const section4 = [
@@ -144,7 +172,8 @@ const section4 = [
     "40 mins presentation + 10 mins Q&A ",
     <a href={require("assets/slides/keynote_talks/Jim_aaai2022_keynote.pdf")}>
       [slides]
-    </a>
+    </a>,
+    <a href="https://youtu.be/TBKM7YJZ8g0">[video]</a>
   ),
 ];
 const section5 = [
@@ -157,15 +186,24 @@ const section5 = [
       href={require("assets/slides/keynote_talks/Sakriani_Sakti_AAAI2022_talk.pdf")}
     >
       [slides]
-    </a>
+    </a>,
+    <a href="https://youtu.be/3cMozabIN7I">[video]</a>
   ),
   createData("17:50 - 18:00", "Q&A for Yu Zhang and Sakriani Sakti", ""),
   createData(
     "18:00 - 19:05",
     "Paper presentation (SUPERB)",
-    "SUPERB intro and result (15 mins) + 4 papers (10 mins each) + 10 mins Q&A"
+    "SUPERB intro and result (15 mins) + 4 papers (10 mins each) + 10 mins Q&A",
+    "",
+    <a href="https://youtu.be/bln898kRvSU">[video]</a>
   ),
-  createData("19:05 - 19:15", "Closing remarks", "Organizers"),
+  createData(
+    "19:05 - 19:15",
+    "Closing remarks",
+    "Organizers",
+    "",
+    <a href="https://youtu.be/3s53w-MJO2o">[video]</a>
+  ),
 ];
 const useStyles = makeStyles({
   table: {

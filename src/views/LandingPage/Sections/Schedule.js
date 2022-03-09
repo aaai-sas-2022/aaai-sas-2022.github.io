@@ -92,6 +92,12 @@ export default function Information(props) {
           >
             paper link
           </a>
+          ] [
+          <a
+            href={require("assets/slides/papers/Mebership Inference Attacks Against Self-Supervised Speech Models.pdf")}
+          >
+            slides
+          </a>
           ]
         </li>
         <li>
