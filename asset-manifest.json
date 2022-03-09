@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.c9d8ff99.chunk.css",
-    "main.js": "/static/js/main.8fd8ed52.chunk.js",
-    "main.js.map": "/static/js/main.8fd8ed52.chunk.js.map",
+    "main.js": "/static/js/main.34308b3b.chunk.js",
+    "main.js.map": "/static/js/main.34308b3b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.47788c5d.js",
     "runtime-main.js.map": "/static/js/runtime-main.47788c5d.js.map",
-    "static/js/2.89f8b746.chunk.js": "/static/js/2.89f8b746.chunk.js",
-    "static/js/2.89f8b746.chunk.js.map": "/static/js/2.89f8b746.chunk.js.map",
+    "static/js/2.d5cc11d5.chunk.js": "/static/js/2.d5cc11d5.chunk.js",
+    "static/js/2.d5cc11d5.chunk.js.map": "/static/js/2.d5cc11d5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.34c277287d4d2bd5ef2a79d78edb2151.js": "/precache-manifest.34c277287d4d2bd5ef2a79d78edb2151.js",
+    "precache-manifest.0109256b3c58bc5cfdde1a331c7b006a.js": "/precache-manifest.0109256b3c58bc5cfdde1a331c7b006a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.c9d8ff99.chunk.css.map": "/static/css/main.c9d8ff99.chunk.css.map",
-    "static/js/2.89f8b746.chunk.js.LICENSE.txt": "/static/js/2.89f8b746.chunk.js.LICENSE.txt",
+    "static/js/2.d5cc11d5.chunk.js.LICENSE.txt": "/static/js/2.d5cc11d5.chunk.js.LICENSE.txt",
     "static/media/AAAISAS2022_vmix_cameraready-compressed.pdf": "/static/media/AAAISAS2022_vmix_cameraready-compressed.e0312ee8.pdf",
     "static/media/AAAI_SAS_2022_S3PRL_VC.pdf": "/static/media/AAAI_SAS_2022_S3PRL_VC.b261c005.pdf",
     "static/media/AAAI_SAS_2022_final.pdf": "/static/media/AAAI_SAS_2022_final.d0b77350.pdf",
@@ -33,6 +33,7 @@
     "static/media/Jan_Chorowski_aaai2022_talk.pdf": "/static/media/Jan_Chorowski_aaai2022_talk.a875c6c5.pdf",
     "static/media/Jim_aaai2022_keynote.pdf": "/static/media/Jim_aaai2022_keynote.0921a5fe.pdf",
     "static/media/Mandarin-English Code-Switching Speech Recognition with Self-Supervised Speech Representation Models.pdf": "/static/media/Mandarin-English Code-Switching Speech Recognition with Self-Supervised Speech Representation Models.a4e57357.pdf",
+    "static/media/Mebership Inference Attacks Against Self-Supervised Speech Models.pdf": "/static/media/Mebership Inference Attacks Against Self-Supervised Speech Models.e3ca38ac.pdf",
     "static/media/Pretext Tasks Selection for Multitask Self-Supervised Speech Representation.pdf": "/static/media/Pretext Tasks Selection for Multitask Self-Supervised Speech Representation.c74f9cb8.pdf",
     "static/media/S3PRL-VC.pdf": "/static/media/S3PRL-VC.25509cff.pdf",
     "static/media/SAS_AAAI_2022_depression.pdf": "/static/media/SAS_AAAI_2022_depression.59cc4a40.pdf",
@@ -50,8 +51,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.47788c5d.js",
-    "static/js/2.89f8b746.chunk.js",
+    "static/js/2.d5cc11d5.chunk.js",
     "static/css/main.c9d8ff99.chunk.css",
-    "static/js/main.8fd8ed52.chunk.js"
+    "static/js/main.34308b3b.chunk.js"
   ]
 }

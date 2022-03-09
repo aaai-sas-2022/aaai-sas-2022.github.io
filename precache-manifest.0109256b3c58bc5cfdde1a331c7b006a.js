@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0560e2e9dbaaa2453b57b4f4c2c5b86a",
+    "revision": "52c2ab10e7838054b09dedf631019189",
     "url": "/index.html"
   },
   {
-    "revision": "93518ff584b9cfbeec44",
+    "revision": "abe6e5d9bb8d101be86a",
     "url": "/static/css/main.c9d8ff99.chunk.css"
   },
   {
-    "revision": "77388792b5bada8db077",
-    "url": "/static/js/2.89f8b746.chunk.js"
+    "revision": "73087529f00418a51c64",
+    "url": "/static/js/2.d5cc11d5.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/static/js/2.89f8b746.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d5cc11d5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "93518ff584b9cfbeec44",
-    "url": "/static/js/main.8fd8ed52.chunk.js"
+    "revision": "abe6e5d9bb8d101be86a",
+    "url": "/static/js/main.34308b3b.chunk.js"
   },
   {
     "revision": "deaf17d855cbdaf7344d",
@@ -106,6 +106,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a4e573574140ac5dcbef3acbf84c1931",
     "url": "/static/media/Mandarin-English Code-Switching Speech Recognition with Self-Supervised Speech Representation Models.a4e57357.pdf"
+  },
+  {
+    "revision": "e3ca38ace829d33c204f39aa3c71b349",
+    "url": "/static/media/Mebership Inference Attacks Against Self-Supervised Speech Models.e3ca38ac.pdf"
   },
   {
     "revision": "c74f9cb8315d6ed1921c8be3e8458be5",
