@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.c9d8ff99.chunk.css",
-    "main.js": "/static/js/main.34308b3b.chunk.js",
-    "main.js.map": "/static/js/main.34308b3b.chunk.js.map",
+    "main.js": "/static/js/main.e2ec0251.chunk.js",
+    "main.js.map": "/static/js/main.e2ec0251.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.47788c5d.js",
     "runtime-main.js.map": "/static/js/runtime-main.47788c5d.js.map",
-    "static/js/2.d5cc11d5.chunk.js": "/static/js/2.d5cc11d5.chunk.js",
-    "static/js/2.d5cc11d5.chunk.js.map": "/static/js/2.d5cc11d5.chunk.js.map",
+    "static/js/2.89f8b746.chunk.js": "/static/js/2.89f8b746.chunk.js",
+    "static/js/2.89f8b746.chunk.js.map": "/static/js/2.89f8b746.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0109256b3c58bc5cfdde1a331c7b006a.js": "/precache-manifest.0109256b3c58bc5cfdde1a331c7b006a.js",
+    "precache-manifest.45e9ff94e691aa881ac3270d6a7181e0.js": "/precache-manifest.45e9ff94e691aa881ac3270d6a7181e0.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.c9d8ff99.chunk.css.map": "/static/css/main.c9d8ff99.chunk.css.map",
-    "static/js/2.d5cc11d5.chunk.js.LICENSE.txt": "/static/js/2.d5cc11d5.chunk.js.LICENSE.txt",
+    "static/js/2.89f8b746.chunk.js.LICENSE.txt": "/static/js/2.89f8b746.chunk.js.LICENSE.txt",
     "static/media/AAAISAS2022_vmix_cameraready-compressed.pdf": "/static/media/AAAISAS2022_vmix_cameraready-compressed.e0312ee8.pdf",
     "static/media/AAAI_SAS_2022_S3PRL_VC.pdf": "/static/media/AAAI_SAS_2022_S3PRL_VC.b261c005.pdf",
     "static/media/AAAI_SAS_2022_final.pdf": "/static/media/AAAI_SAS_2022_final.d0b77350.pdf",
@@ -23,7 +23,6 @@
     "static/media/Characterizing the adversarial vulnerability of speech self-supervised learning.pdf": "/static/media/Characterizing the adversarial vulnerability of speech self-supervised learning.885db17f.pdf",
     "static/media/Characterizing_the_adversarial_vulnerability_of_speech_self-supervised_learning.pdf": "/static/media/Characterizing_the_adversarial_vulnerability_of_speech_self-supervised_learning.26162b9c.pdf",
     "static/media/Danqi_Chen_aaai2022_talk.pdf": "/static/media/Danqi_Chen_aaai2022_talk.53b255b3.pdf",
-    "static/media/DeLoRes Decorrelating Latent Spaces for Low-Resource Audio Representation Learning.pdf": "/static/media/DeLoRes Decorrelating Latent Spaces for Low-Resource Audio Representation Learning.34d49a30.pdf",
     "static/media/DistilHuBERT Speech Representation Learning by Layer-wise Distillation of Hidden-unit BERT.pdf": "/static/media/DistilHuBERT Speech Representation Learning by Layer-wise Distillation of Hidden-unit BERT.1e404e6b.pdf",
     "static/media/DistilHuBERT_AAAI_SAS_2022.pdf": "/static/media/DistilHuBERT_AAAI_SAS_2022.7d068153.pdf",
     "static/media/Do self-supervised speech models develop human-like perception biases.pdf": "/static/media/Do self-supervised speech models develop human-like perception biases.7f3face4.pdf",
@@ -42,8 +41,8 @@
     "static/media/Speech Representation Learning through Self-supervised Pretraining and Multi-task Finetuning.pdf": "/static/media/Speech Representation Learning through Self-supervised Pretraining and Multi-task Finetuning.e95abd68.pdf",
     "static/media/WavLM Large-Scale Self-Supervised Pre-Training for Full Stack Speech Processing.pdf": "/static/media/WavLM Large-Scale Self-Supervised Pre-Training for Full Stack Speech Processing.20c895d1.pdf",
     "static/media/Weining_Hsu_aaai2022_talk.pdf": "/static/media/Weining_Hsu_aaai2022_talk.7ac27a4c.pdf",
+    "static/media/aaai-sas-spoken-language-acquisition.pdf": "/static/media/aaai-sas-spoken-language-acquisition.61fa54ef.pdf",
     "static/media/aaai22_ssl_camera_ready.pdf": "/static/media/aaai22_ssl_camera_ready.8cbf3fb4.pdf",
-    "static/media/aaai_delores_final.pdf": "/static/media/aaai_delores_final.499ddb39.pdf",
     "static/media/appendix.pdf": "/static/media/appendix.8b464ceb.pdf",
     "static/media/location.jpg": "/static/media/location.2ab7ff0a.jpg",
     "static/media/paper_millet_dunbar.pdf": "/static/media/paper_millet_dunbar.d9355e2c.pdf",
@@ -51,8 +50,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.47788c5d.js",
-    "static/js/2.d5cc11d5.chunk.js",
+    "static/js/2.89f8b746.chunk.js",
     "static/css/main.c9d8ff99.chunk.css",
-    "static/js/main.34308b3b.chunk.js"
+    "static/js/main.e2ec0251.chunk.js"
   ]
 }

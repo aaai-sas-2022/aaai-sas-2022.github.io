@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "52c2ab10e7838054b09dedf631019189",
+    "revision": "5af063faa64b355f2cca430846d128e8",
     "url": "/index.html"
   },
   {
-    "revision": "abe6e5d9bb8d101be86a",
+    "revision": "6c3b304c8ddba1c9ed04",
     "url": "/static/css/main.c9d8ff99.chunk.css"
   },
   {
-    "revision": "73087529f00418a51c64",
-    "url": "/static/js/2.d5cc11d5.chunk.js"
+    "revision": "77388792b5bada8db077",
+    "url": "/static/js/2.89f8b746.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/static/js/2.d5cc11d5.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.89f8b746.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "abe6e5d9bb8d101be86a",
-    "url": "/static/js/main.34308b3b.chunk.js"
+    "revision": "6c3b304c8ddba1c9ed04",
+    "url": "/static/js/main.e2ec0251.chunk.js"
   },
   {
     "revision": "deaf17d855cbdaf7344d",
@@ -66,10 +66,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "53b255b3b931b7f4204b76117f46679b",
     "url": "/static/media/Danqi_Chen_aaai2022_talk.53b255b3.pdf"
-  },
-  {
-    "revision": "34d49a30d5efb6fcb8b9edb9ea2a666a",
-    "url": "/static/media/DeLoRes Decorrelating Latent Spaces for Low-Resource Audio Representation Learning.34d49a30.pdf"
   },
   {
     "revision": "1e404e6b0d83af538289bae41a8179c3",
@@ -144,12 +140,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Weining_Hsu_aaai2022_talk.7ac27a4c.pdf"
   },
   {
-    "revision": "8cbf3fb435b95f2ac85c0cd046c7b06a",
-    "url": "/static/media/aaai22_ssl_camera_ready.8cbf3fb4.pdf"
+    "revision": "61fa54ef4056bdb5075dbf4b2bef106f",
+    "url": "/static/media/aaai-sas-spoken-language-acquisition.61fa54ef.pdf"
   },
   {
-    "revision": "499ddb39fe8fc69f8fcffb07d06f7a8a",
-    "url": "/static/media/aaai_delores_final.499ddb39.pdf"
+    "revision": "8cbf3fb435b95f2ac85c0cd046c7b06a",
+    "url": "/static/media/aaai22_ssl_camera_ready.8cbf3fb4.pdf"
   },
   {
     "revision": "8b464ceb330f1d816cf8f3bc59276aac",
